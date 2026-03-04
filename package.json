@@ -1,0 +1,55 @@
+{
+  "name": "@flagged/react",
+  "version": "0.1.0",
+  "description": "Feature flags for React apps without infrastructure",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "feature-flags",
+    "feature-toggles",
+    "ab-testing",
+    "rollout",
+    "flags"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^25.3.3",
+    "@types/react": "^18.2.48",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "rollup": "^4.9.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/flagged.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/flagged/issues"
+  },
+  "homepage": "https://github.com/yourusername/flagged#readme"
+}

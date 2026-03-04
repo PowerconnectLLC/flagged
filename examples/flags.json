@@ -1,0 +1,24 @@
+{
+  "newDashboard": true,
+  "checkoutV2": {
+    "enabled": true,
+    "rollout": 50
+  },
+  "holidayTheme": {
+    "enabled": true,
+    "start": "2026-12-01",
+    "end": "2026-12-26"
+  },
+  "experimentalFeature": {
+    "rollout": 10
+  },
+  "checkoutDesign": {
+    "variants": ["A", "B", "C"],
+    "rollout": 100
+  },
+  "debugTools": {
+    "enabled": true,
+    "env": ["development", "staging"]
+  },
+  "maintenanceMode": false
+}
