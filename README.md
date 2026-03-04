@@ -20,7 +20,7 @@ Dead simple feature flags with zero backend required. Perfect for A/B testing, g
      Then replace this comment with: ![Dev Tools Demo](./demo.gif)
 -->
 
-**[🎬 Add your demo GIF here]** - Show the dev tools panel toggling flags in real-time!
+
 
 ## Why?
 
